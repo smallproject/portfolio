@@ -1,7 +1,3 @@
-// import Hero from '../components/Hero';
-// import Footer from '../components/Footer';
-
-import {Link} from "react-router-dom";
 import Hero from "../components/Hero.jsx";
 import Skills from "../components/Skills.jsx";
 import Portfolio from "../components/Portfolio.jsx";

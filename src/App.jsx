@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 import Footer from "./components/Footer.jsx";
 import About from "./pages/About.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
                   <Route path="/" element={<Home />} />
                   {/*<Route path="/projects" element={<Projects />} />*/}
                   <Route path="/about" element={<About />} />
+                  <Route path="*" element={<NotFound />} />
                   {/*<Route path="/contact" element={<Contact />} />*/}
               </Routes>
               <Footer />
