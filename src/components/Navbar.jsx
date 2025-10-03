@@ -23,7 +23,7 @@ function Navbar() {
                             <Link className="nav-link" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/projects">Projects</Link>
+                            <a className="nav-link" href="https://github.com/smallproject?tab=repositories">Projects</a>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/about">About</Link>

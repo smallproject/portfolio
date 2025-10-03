@@ -1,5 +1,3 @@
-import {Link} from "react-router-dom";
-
 function Hero()  {
     return(
      <section className="text-center mb-5">
@@ -8,7 +6,7 @@ function Hero()  {
             Junior Software Developer | React & Vite Enthusiast | AI Researcher
         </p>
         <div className="d-flex justify-content-center gap-3 mt-4">
-            <Link to="/projects" className="btn btn-primary">View Projects</Link>
+            <a href="https://github.com/smallproject?tab=repositories" className="btn btn-primary">View Projects</a>
             <a href="/cv.pdf" className="btn btn-outline-primary">Download CV</a>
         </div>
     </section>
