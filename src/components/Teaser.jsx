@@ -13,7 +13,7 @@ function Teaser() {
             <p>
                 I bring warmth, curiosity, and a pragmatic mindset to every challenge. My goal is to create meaningful digital experiences while growing as a developer and researcher in a world increasingly shaped by intelligent systems.
             </p>
-            <Link to="/about" className="btn btn-outline-secondary align-content-center">Learn more</Link>
+            <Link to="https://www.linkedin.com/in/javillas/" className="btn btn-outline-secondary align-content-center">Learn more</Link>
         </section>
     );
 }
