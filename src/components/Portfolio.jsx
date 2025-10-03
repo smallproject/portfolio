@@ -11,12 +11,24 @@ function Portfolio() {
                         <div className="card-body">
                             <h5 className="card-title">React Portfolio</h5>
                             <p className="card-text">Modular, responsive portfolio built with React + Vite.</p>
-                            <a href="https://github.com/yourusername/react-portfolio"
+                            <a href="https://github.com/smallproject"
                                className="btn btn-sm btn-primary">GitHub</a>
                         </div>
                     </div>
                 </div>
                 {/* Add more cards as needed */}
+                <div className="col-md-4 mb-4">
+                    <div className="card shadow-sm">
+                        <div className="card-body">
+                            <h5 className="card-title">School System Manager</h5>
+                            <p className="card-text">Streamline your school operations with ease built with React, hosted on Netlify.</p>
+                            <a href="https://github.com/Tomorrow-s-Edge/FutureSeed"
+                               className="btn btn-sm btn-primary me-2">GitHub</a>
+                            <a href="https://futureseed.netlify.app/" className="btn btn-sm btn-outline-primary">Live
+                                Demo</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="text-end mt-2">
                 <Link to="/projects" className="btn btn-link">See all projects →</Link>
